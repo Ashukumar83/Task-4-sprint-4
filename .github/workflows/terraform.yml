@@ -48,7 +48,7 @@ on:
   push:
     branches: [ "main" ]
   #pull_request:
-
+  workflow dispatch:
 
 jobs:
   terraform:
